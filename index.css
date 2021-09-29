@@ -11,7 +11,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	/* border: 0; */
+	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 
 /*general styles*/
@@ -37,13 +37,21 @@ body{
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+    color: black;
+}
+h2{
+    font-family: 'Roboto Mono';
+}
+p{
+    font-family: 'Roboto Mono';
 }
 section{
-    padding:4% 0;
+    padding:1.5% 0;
 }
 a{
     text-decoration:none;
     font-family: 'Roboto Mono', monospace;
+    
 }
 nav{
     padding:2% 0;
@@ -68,6 +76,7 @@ nav a{
     background-color: #ffcd69;
     margin-right: 10%;
 }
+/*top section style*/
 .top{
     position:relative;
 }
@@ -77,14 +86,75 @@ nav a{
 }
 .left{
     width: 30%;
+    margin-left: 5%;
+    border:none;
 }
 .left img{
     border-radius: 50%;
-    width: 80%;
+    width: 70%;
+    border:none;
 }
 .right{
     width: 55%;
     margin-left: 5%;
     position: absolute;
-    top: 45%;
+    top: 15%;
+}
+.text{
+    width: 90%;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+h2{
+    margin-bottom: 5%;
+}
+.text p{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 20%;
+    letter-spacing: .1rem;
+}
+.middle{
+    position: relative;
+}
+.middle-info{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: burlywood;
+    color:white;
+}
+.middle-info p{
+    line-height: 2;
+    margin-top: 2%;
+}
+.pic-middle{
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+}
+.pic-middle img{
+    width: 25%;
+    margin-left: 35%;
+}
+.pic-middle p{
+    margin-left: 25%;
+    margin-right: 30%;
+    text-align: center;
+}
+.pic-bottom img{
+    margin-top: 5%;
+}
+.pic-middle span{
+    font-weight: bold;
+}
+.imgone img{
+    background-image: url("assets/footer_img.jpg");
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
 }
