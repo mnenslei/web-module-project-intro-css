@@ -125,10 +125,10 @@ h2{
     margin-right: 5%;
     background-color: burlywood;
     color:white;
+    padding:.5%;
 }
 .middle-info p{
     line-height: 2;
-    margin-top: 2%;
 }
 .pic-middle{
     width: 50%;
